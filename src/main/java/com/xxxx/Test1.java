@@ -23,9 +23,11 @@ public class Test1 {
     @After
     public void testCloseConn(){
         if (jedis!=null){
+            System.out.println("haha");
             jedis.close();
         }
     }
+
 
     //操作String
     @Test
