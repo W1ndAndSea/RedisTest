@@ -23,6 +23,7 @@ public class initConn01 {
         //使用ping命令测试连接是否成功
         String result = jedis.ping();
         System.out.println(result);
+        System.out.println("随便修改一下");
 
         //添加一条数据
         jedis.set("username", "xwp");
